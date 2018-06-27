@@ -11,7 +11,9 @@
    <script>                                    
      $(document).ready(function(){
        $("button").click(function(){
-        alert("Hello from my webpage")
+         $("iframe").hide();
+         $("img").hide();
+                                     
      });
    });
    </script>
@@ -38,8 +40,9 @@
   </div>
    <h1>Kymani</h1>
                   
-   <button>Say Hi</button>     
-                  
+   <button id="button2">Hide</button>     
+   <button id="show">show</button>
+                    
      <iframe width="560" height="315" src="https://www.youtube.com/embed/dJYEwrolVpw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    
      
