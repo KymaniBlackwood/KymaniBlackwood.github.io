@@ -4,5 +4,4 @@ p { color: #abc32f }
 h1: hover { 
      background-color: green
 }
-box{ height:150px;
-     border:1px solid;}
+.box { height: 150px; border: 1px solid; }
